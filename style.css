@@ -55,6 +55,11 @@ main {
   color: var(--about-accent);
 }
 
+.cat {
+  display: flex;
+  justify-content: center;
+}
+
 .skills {
   border-color: var(--skills-accent);
 }
