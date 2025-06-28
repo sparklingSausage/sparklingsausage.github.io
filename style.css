@@ -56,10 +56,11 @@ main {
   color: var(--about-accent);
 }
 
-.cat {
+.cat img{
   border-color: var(--cat-accent);
+  max-width: 100%;
   height: auto;
-  width: auto;
+  display: block;
 }
 
 .cat h2 {
