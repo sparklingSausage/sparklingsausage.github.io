@@ -57,8 +57,6 @@ main {
 }
 
 .cat {
-  display: flex;
-  justify-content: center;
   border-color: var(--cat-accent);
 }
 
