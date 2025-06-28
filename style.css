@@ -58,6 +58,8 @@ main {
 
 .cat {
   border-color: var(--cat-accent);
+  height: auto;
+  width: auto;
 }
 
 .cat h2 {
