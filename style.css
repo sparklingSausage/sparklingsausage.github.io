@@ -1,5 +1,5 @@
 :root {
-  --primary: #4fc3f7;
+  --primary: #360075;
   --background: #121212;
   --text: #e0e0e0;
   --card-bg: #1e1e1e;
@@ -62,7 +62,6 @@ main {
   height: auto;
   display: inline-block;
   text-align: center;
-  border-left: var(--cat-accent);
 }
 
 .cat h2 {
