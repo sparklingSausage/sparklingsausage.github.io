@@ -60,7 +60,8 @@ main {
   border-color: var(--cat-accent);
   max-width: 100%;
   height: auto;
-  display: block;
+  display: inline-block;
+  text-align: center;
 }
 
 .cat h2 {
