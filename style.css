@@ -9,6 +9,7 @@
   --about-accent: #81c784;
   --skills-accent: #ffb74d;
   --contact-accent: #64b5f6;
+  --cat-accent: #360075;
 }
 
 body {
@@ -58,6 +59,11 @@ main {
 .cat {
   display: flex;
   justify-content: center;
+  border-color: var(--cat-accent);
+}
+
+.cat h2 {
+  color: var(--cat-accent);
 }
 
 .skills {
@@ -66,6 +72,7 @@ main {
 .skills h2 {
   color: var(--skills-accent);
 }
+
 
 .contact {
   border-color: var(--contact-accent);
