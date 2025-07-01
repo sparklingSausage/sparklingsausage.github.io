@@ -76,7 +76,10 @@ main {
 .skills {
   border-color: var(--skills-accent);
 }
-.skills h2, h3 {
+.skills h2{
+  color: var(--skills-accent);
+}
+.skills h3{
   color: var(--skills-accent);
 }
 
