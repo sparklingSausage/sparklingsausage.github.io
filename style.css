@@ -9,7 +9,8 @@
   --about-accent: #81c784;
   --skills-accent: #ffb74d;
   --contact-accent: #64b5f6;
-  --cat-accent: #360075;
+  --cat-accent: #00b2df;
+  --links-accent: #0c7a49;
 }
 
 body {
@@ -56,6 +57,10 @@ main {
   color: var(--about-accent);
 }
 
+.cat{
+  border-color: var(--cat-accent);
+}
+
 .cat img{
   border-color: var(--cat-accent);
   max-width: 100%;
@@ -75,12 +80,20 @@ main {
   color: var(--skills-accent);
 }
 
+.skills li::before{
+  color: var(--skills-accent);
+}
 
 .contact {
   border-color: var(--contact-accent);
+  color: white;
 }
-.contact h2 {
+.contact h2{
   color: var(--contact-accent);
+}
+.contact a{
+  color: white;
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
@@ -124,14 +137,41 @@ footer {
 }
 
 .icons{
-        width: 20px; 
-        height: 20px; 
-        vertical-align: middle; 
-        margin-right: 5px;
+  width: 20px; 
+  height: 20px; 
+  vertical-align: middle; 
+  margin-right: 5px;
 }
 .list-item{
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 20px;
+}
+
+.links {
+  border-color: var(--links-accent);
+  color: white;
+}
+.links h2 {
+  color: var(--links-accent);
+}
+
+.links li::before{
+  color: var(--links-accent);
+}
+.links a{
+  text-decoration: underline;
+  color: white;
+}
+
+.trademark a{
+  color: white;
+  text-decoration: underline;
+}
+
+.x{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
